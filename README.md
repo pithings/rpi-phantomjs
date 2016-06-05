@@ -3,6 +3,7 @@ PhantomJS compiled for the Raspberry Pi (compiled on a Raspberry Pi 3, AMRv7, on
 Current version: 2.1.1
 
 Steps to compile:
+* Important: add more swap to your raspberry pi, or you will get out of memory errors. Here is the blog post:
 ```bash
 sudo apt-get install build-essential g++ flex bison gperf git ruby perl python \
   libsqlite3-dev libfontconfig1-dev libicu-dev libfreetype6 libssl-dev \
